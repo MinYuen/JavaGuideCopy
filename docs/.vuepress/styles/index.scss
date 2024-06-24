@@ -2,4 +2,14 @@ body {
   @media (min-width: 1440px) {
     font-size: 16px;
   }
+
+  .vp-project-home .vp-hero-info-wrapper:not(.fullscreen) .vp-hero-info {
+    max-width: 1200px;
+  }
+  .vp-hero-info-wrapper {
+    min-height: 600px;
+  }
+  #main-description {
+    max-width: unset;
+  }
 }

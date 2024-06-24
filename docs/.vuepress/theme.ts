@@ -14,7 +14,7 @@ export default hopeTheme({
   iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
 
   author: {
-    name: "Guide",
+    name: "流数软件开发部",
     url: "https://javaguide.cn/article/",
   },
 

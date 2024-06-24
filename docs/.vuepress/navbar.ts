@@ -1,11 +1,52 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  { text: "面试指南", icon: "java", link: "/home.md" },
-  { text: "开源项目", icon: "github", link: "/open-source-project/" },
-  { text: "技术书籍", icon: "book", link: "/books/" },
+  { text: "快速上手", icon: "java", link: "/home.md" },
+  { text: "系统配置", icon: "github", link: "/open-source-project/" },
+  { text: "操作指南", icon: "book", link: "/books/" },
   {
-    text: "程序人生",
+    text: "常见问题",
+    icon: "help",
+    children: [
+      {
+        text: "制造执行",
+        icon: "about",
+        link: "/faq/mes/readme.md",
+      },
+      {
+        text: "仓库管理",
+        icon: "about",
+        link: "/faq/wms/readme.md",
+      },
+      {
+        text: "设备管理",
+        icon: "star",
+        link: "/faq/eam/readme.md",
+      },
+      {
+        text: "能源管理",
+        icon: "star",
+        link: "/faq/ems/readme.md",
+      },
+      {
+        text: "过程质量",
+        icon: "star",
+        link: "/faq/qms/readme.md",
+      },
+      {
+        text: "智能分单",
+        icon: "star",
+        link: "/faq/oms/readme.md",
+      },
+      {
+        text: "生产排程",
+        icon: "star",
+        link: "/faq/aps/readme.md",
+      },
+    ],
+  },
+  {
+    text: "常见问题",
     icon: "article",
     link: "/high-quality-technical-articles/",
   },
@@ -27,6 +68,20 @@ export default navbar([
         text: "星球优质主题汇总",
         icon: "star",
         link: "https://www.yuque.com/snailclimb/rpkqw1/ncxpnfmlng08wlf1",
+      },
+    ],
+  },
+  {
+    text: "项目平台",
+    icon: "about",
+    children: [
+      { text: "智能制造", icon: "zuozhe", link: "/about-the-author/" },
+      { text: "智能制造APP", icon: "zuozhe", link: "/about-the-author/" },
+      { text: "智能分单", icon: "zuozhe", link: "/about-the-author/" },
+      {
+        text: "财经体系",
+        icon: "history",
+        link: "/timeline/",
       },
     ],
   },
